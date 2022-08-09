@@ -1,29 +1,60 @@
 # Part 1
 ### a)
-
-
-
+grep "psyd" forest/*.4 > captured/psyduck.txt
+grep "squi" forest/*.4 > captured/squirtle.txt
+grep "venu" forest/*.4 > captured/venusaur.txt
+grep "pika" forest/*.3 > captured/pikachu.txt
+grep "blas" forest/*.1 > captured/blastoise.txt
+grep "jigg" forest/*.3 > captured/jigglypuff.txt
+grep "wart" forest/*.4 > captured/wartortle.txt
+grep "meow" forest/*.3 > captured/meowth.txt
+grep "ivys" forest/*.3 > captured/ivysaur.txt
+grep "beed" forest/*.1 > captured/beedrill.txt
+grep "bulb" forest/*.1 > captured/bublbasaur.txt
+grep "butt" forest/*.1 > captured/butterfree.txt
+grep "izard" forest/*.2 > captured/charizard.txt
+grep "mander" forest/*.2 > captured/charmander.txt
+grep "meleon" forest/*.2 > captured/charmelon.txt
 
 ### b)
-
-
+psyduck.txt
+squirtle.txt
+venusaur.txt
+pikachu.txt
+blastoise.txt
+jigglypuff.txt
+wartortle.txt
+meowth.txt
+ivysaur.txt
+beedrill.txt
+bulbasaur.txt
+butterfree.txt
+charizard.txt
+charmander.txt
+charmeleon.txt
 
 ### c)
-
-
-
-
-
-
-
-
-
-
-
+forest/filescan_00.4:psyd---------------uck
+forest/filescan_00.4:squi---------------rtle
+forest/filescan_00.4:venu---------------saur
+forest/filescan_00.3:pika---------------chu
+forest/filescan_00.1:blas---------------toise
+forest/filescan_00.3:jigg---------------lypuff
+forest/filescan_00.4:wart---------------ortle
+forest/filescan_00.3:meow---------------th
+forest/filescan_00.3:ivys---------------aur
+forest/filescan_00.1:beed---------------rill
+forest/filescan_00.1:bulb---------------asaur
+forest/filescan_00.1:butt---------------erfree
+forest/filescan_00.2:char---------------izard
+forest/filescan_00.2:char---------------mander
+forest/filescan_00.2:char---------------meleon
 
 
 # Part 2
 ### a)
+There are 16 Pokemons
+I used captured % find . -type f -print | wc -l
 
 
 
@@ -32,7 +63,12 @@
 
 ### b)
 
+The top 3 biggest pokemons (number of lines) are:
+pikachu.txt
+charizard.txt
+beedrill.txt 
 
+I used captured % wc -l  * | sort 
 
 
 
